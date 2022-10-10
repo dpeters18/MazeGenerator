@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=GridPlotterApp
+comment0.text=\r\n\ \ Grid\ Plotter\:<br>\r\n\r\n\ \ \ \ The\ <code>GridPlotterApp</code>\ class\ provides\ a\ <code>main</code>\r\n\ \ \ \ method\ for\ an\ application\ that\ draws\ by\ placing\ color\ blocks\ in\ a\r\n\ \ \ \ grid.\r\n\r\n\ \ @author\ Alyce\ Brady\r\n\ \ @version\ 1\ September\ 2004\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\ \ Starts\ the\ Grid\ Plotter\ program.\r\n\ \ The\ String\ arguments\ (args)\ are\ not\ used\ in\ this\ application.\r\n
+numComments=2

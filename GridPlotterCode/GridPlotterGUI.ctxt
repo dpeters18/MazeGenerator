@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=GridPlotterGUI
+comment0.text=\r\n\ \ Grid\ Plotter\:<br>\r\n\r\n\ \ \ \ The\ <code>GridPlotterGUI</code>\ class\ provides\ the\ graphical\r\n\ \ \ \ user\ interface\ for\ a\ program\ that\ draws\ in\ a\ grid\ by\ placing\r\n\ \ \ \ color\ blocks\ in\ its\ cells.\r\n\r\n\ \ @author\ Alyce\ Brady\ (based\ on\ code\ by\ Julie\ Zelenski)\r\n\ \ @version\ 1\ September\ 2004\r\n
+comment1.params=maxDelayMSecs\ minDelayMsecs
+comment1.target=GridPlotterGUI(int,\ int)
+comment1.text=\ Constructs\ the\ graphical\ user\ interface\ for\ the\ Grid\r\n\ \ Plotter\ program.\r\n\ \ \ \ @param\ maxDelayMsecs\ longest\ delay\ value\ for\ slider,\ in\ milliseconds\r\n\ \ \ \ @param\ minDelayMsecs\ shortest\ delay\ value\ for\ slider,\ in\ milliseconds\r\n
+comment2.params=title\ viewingWidth\ viewingHeight\ minCellSize
+comment2.target=void\ constructWindowContents(java.lang.String,\ int,\ int,\ int)
+comment2.text=Inherit\ description\ from\ GridAppFrame.
+comment3.params=
+comment3.target=javax.swing.JPanel\ defineContent()
+comment3.text=Inherit\ description\ from\ GridAppFrame.
+comment4.params=loc
+comment4.target=void\ showLocation(edu.kzoo.grid.Location)
+comment4.text=\ Shows\ the\ contents\ of\ a\ single\ location\ in\ the\ grid.\ \ This\ allows\r\n\ \ for\ speedier\ display\ than\ the\ showGrid\ method\ because\ it\ only\ updates\r\n\ \ the\ contents\ of\ the\ one,\ specified\ location.\r\n\ \ (Precondition\:\ must\ have\ called\ <code>setGrid</code>.)\r\n
+numComments=5
